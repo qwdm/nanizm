@@ -1,10 +1,11 @@
+# python3.6 test app
+from nanizm import App
 
-from wsgi_nano import App
 
 app = App()
 
 DATA = {
-    'USERS': [ 
+    'USERS': [
         {
             'username': 'Amigo',
             'age': 12,
@@ -28,6 +29,3 @@ def users_names():
 def user(id):
     id = int(id)
     return DATA['USERS'][id]
-
-
-#print(app.router.routes)
