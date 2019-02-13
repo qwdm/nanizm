@@ -31,13 +31,3 @@ def wsgi_app(environ, start_response):
     }
 
     return [json.dumps(response_data).encode('UTF-8')]
-
-
-
-
-
-
-
-        
-    
-
