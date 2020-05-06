@@ -8,6 +8,7 @@ def wsgi_app(environ, start_response):
     resp_headers = [
             ('Content-type', 'application/json'),
             ('Content-Encoding', 'utf-8'),
+            ('X-Bullshit', 'nodata'),
     ]
     start_response(status, resp_headers)
 
