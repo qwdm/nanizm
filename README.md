@@ -12,3 +12,5 @@ curl -i localhost:8000/
 curl -i localhost:8000/users/names
 curl -i localhost:8000/users/1
 ```
+
+Have fun!!
